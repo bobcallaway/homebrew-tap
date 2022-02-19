@@ -4,9 +4,9 @@
 class Cosign < Formula
   desc "Container Signing, Verification and Storage in an OCI registry"
   homepage "https://sigstore.dev"
-  version "1.5.1"
+  version "1.5.2"
   license "Apache-2.0"
-  head "https://github.com/sigstore/cosign.git", tag: "v1.5.1"
+  head "https://github.com/sigstore/cosign.git", tag: "v1.5.2"
 
   on_macos do
     depends_on "pcsc-lite"
